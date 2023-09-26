@@ -1,3 +1,3 @@
 # 365DaysCodingChallenge
-## serfghj
-[Que.1](https://github.com/realankitsinghal)
+## Day1
+Remove Duplicate Letters - [Solve Now](https://leetcode.com/problems/remove-duplicate-letters/description/)
