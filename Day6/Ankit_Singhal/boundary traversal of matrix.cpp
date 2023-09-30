@@ -1,40 +1,31 @@
 class Solution
-{
-public:
-    // Function to modify the matrix such that if a matrix cell matrix[i][j]
-    // is 1 then all the cells in its ith row and jth column will become 1.
-    void booleanMatrix(vector<vector<int>>& matrix)
+{   
+    public:
+    vector<int> boundaryTraversal(vector<vector<int> > matrix, int n, int m) 
     {
-        int rows = matrix.size();
-        int cols = matrix[0].size();
-
-        // Arrays to track whether a row or column should be set to 1.
-        vector<bool> rowFlag(rows, false);
-        vector<bool> colFlag(cols, false);
-
-        // Scan the matrix and update the flags.
-        for (int i = 0; i < rows; i++)
-        {
-            for (int j = 0; j < cols; j++)
-            {
-                if (matrix[i][j] == 1)
-                {
-                    rowFlag[i] = true;
-                    colFlag[j] = true;
-                }
-            }
+    vector<int> result;
+    if (n == 1) {
+        for (int i = 0; i < m; i++) {
+            result.push_back(matrix[0][i]);
         }
-
-        // Update the matrix based on the flags.
-        for (int i = 0; i < rows; i++)
-        {
-            for (int j = 0; j < cols; j++)
-            {
-                if (rowFlag[i] || colFlag[j])
-                {
-                    matrix[i][j] = 1;
-                }
-            }
+    } else if (m == 1) {
+        for (int i = 0; i < n; i++) {
+            result.push_back(matrix[i][0]);
+        }
+    } else {
+        for (int i = 0; i < m; i++) {
+            result.push_back(matrix[0][i]);
+        }
+        for (int i = 1; i < n - 1; i++) {
+            result.push_back(matrix[i][m - 1]);
+        }
+        for (int i = m - 1; i >= 0; i--) {
+            result.push_back(matrix[n - 1][i]);
+        }
+        for (int i = n - 2; i >= 1; i--) {
+            result.push_back(matrix[i][0]);
         }
     }
+    return result;
+}
 };
