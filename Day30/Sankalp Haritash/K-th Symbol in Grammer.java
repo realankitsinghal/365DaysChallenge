@@ -5,4 +5,9 @@ class Solution {
         if (k <= length) return kthGrammar(n - 1, k);
         else return 1 - kthGrammar(n - 1, k - length);
     }
+
+    public static void main(String arg[])
+    {
+        System.out.println(KthGrammar(1,1));
+    }
 }
