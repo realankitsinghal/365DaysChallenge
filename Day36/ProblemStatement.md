@@ -1,6 +1,6 @@
 ## Day 36
 
-Leetcode: Count Vowels Permutation
+Leetcode: Find The Original Array Of Prefix Xor
 [Solve Now](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/?envType=daily-question&envId=2023-10-310)
 
 GeeksForGeeks: Move all zeroes to end of array 
