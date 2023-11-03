@@ -18,7 +18,6 @@ class Solution {
         traverse(root, result);
         return result[0];
     }
-
     private int[] traverse(TreeNode node, int[] result) {
         if (node == null) return new int[]{0, 0};
 
