@@ -1,0 +1,7 @@
+## Day 40
+
+Leetcode: Find The Original Array Of Prefix Xor
+[Solve Now](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/?envType=daily-question&envId=2023-11-04)
+
+
+
