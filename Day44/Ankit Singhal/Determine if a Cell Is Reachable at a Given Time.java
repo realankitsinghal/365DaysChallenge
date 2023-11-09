@@ -5,10 +5,8 @@ class Solution {
                 return true;
             return false;
          }
-        
         int xDiff = Math.abs(fx-sx);
         int yDiff = Math.abs(fy-sy);
-       
         if(Math.max(xDiff,yDiff) <= t)
             return true;
         return false;
