@@ -1,7 +1,7 @@
 ## Day 49
 
-Leetcode: Sort Vowels in a String
-[Solve Now](https://leetcode.com/problems/sort-vowels-in-a-string/submissions/1097598163/?envType=daily-question&envId=2023-11-13)
+Leetcode: Sort Vowels in a String 
+[Solve Now](https://leetcode.com/problems/sort-vowels-in-a-string/submissions/1097598163/)
 
-GeeksForGeeks: Sort Vowels in a String 
-[Solve Now](https://leetcode.com/problems/sort-vowels-in-a-string/)
+GeeksForGeeks: Shortest Common Supersequence
+[Solve Now](https://www.geeksforgeeks.org/problems/shortest-common-supersequence0322/1)
