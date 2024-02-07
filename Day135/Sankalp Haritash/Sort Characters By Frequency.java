@@ -1,5 +1,3 @@
-
-
 class Solution {
     public String frequencySort(String s) {
         Map<Character, Integer> hm = new HashMap<>();
