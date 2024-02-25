@@ -1,0 +1,16 @@
+class Geeks {
+    public long count(int n) {
+        int[] coins={3,5,10};
+        long [] dp=new long[n+1];
+        dp[0]=1;
+        
+        for(int i=0;i<coins.length;i++){
+            for(int j=coins[i];j<dp.length;j++){
+                dp[j]+=dp[j-coins[i]];
+            }
+        }
+        
+        return dp[n];
+        
+    }
+}
