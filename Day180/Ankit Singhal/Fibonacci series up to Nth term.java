@@ -1,5 +1,4 @@
 class Solution {
-
     int[] Series(int n) {
         int mod=(int)1e9+7;
         int[] ans=new int[n+1];
