@@ -23,7 +23,6 @@ class Solution {
         count[root]++;
     }
 
-
     public void dfs2(int root, HashSet<Integer> seen) {
         seen.add(root);
         for (int i : tree.get(root))
